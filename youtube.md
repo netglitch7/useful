@@ -36,7 +36,7 @@ Newsboat is a RSS program that runs on the terminal, and it will be used to grab
 1. Grab that file you created and move it to `~/.newsboat/`.
 2. Run the `newsboat` command again to open the application.
 3. Press `[Shift] + [R]` to update all YouTube channels.
-4. Press `[Shift] + [A]` to mark all as read and confirm by pressing `[Y]`.
+4. Press `[Shift] + [C]` to mark all as read and confirm by pressing `[Y]`.
 5. Press `[Q]` to close.
 
 We did this just to mark all YouTube videos as watched so we can start fresh from here, otherwise you'll download around 30 past videos from each channel from that file.
