@@ -65,7 +65,6 @@ Here's the simple bash script I use (feel free to adapt it for your needs and ma
 DATABASE="/home/$USER/.newsboat/cache.db"
 
 QUERY="select url from rss_item where unread=1 order by url asc"
-QUERY_UPDATE="update rss_item set unread=0 where unread=1"
 
 # ===================================
 # GET VIDEOS
