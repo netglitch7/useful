@@ -51,11 +51,9 @@ Finally, let's make a bash script. Create it and give a name like `youtube.sh` a
 4. If a video gives an error for some reason (usually happens when a video URL is ready, but the video is scheduled to air later), the script will tell newsboat to mark that video as unread, so you can try to download it later again (it will also print the video URLs with problems at the end).
 
 Here's the simple bash script I use (feel free to adapt it for your needs and make it better).
-P.S: 
 
-1. `xclip` is used to paste the URLs from newsboat to `urls.txt`.
-2. Modify the folder locations to match yours.
-3. I have a Full HD monitor, so I set videos to download at max resolution 1080p 60fps, change it as needed.
+1. Modify the folder locations to match yours.
+2. I have a Full HD monitor, so I set videos to download at max resolution 1080p 60fps, change it as needed.
 
 ```
 #!/bin/bash
