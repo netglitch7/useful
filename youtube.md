@@ -76,6 +76,7 @@ newsboat -x reload print-unread
 
 # get urls of new videos
 sqlite3 "$DATABASE" "$QUERY" > /home/$USER/Downloads/links.txt
+
 echo
 echo "============================================="
 echo "                 NEW VIDEOS                  "
